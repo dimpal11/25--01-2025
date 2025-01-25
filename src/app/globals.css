@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --text-color: #fe434c;
+  --bg-color: #fe434c;
+  --footer-text: #273252;
+  --bg-body: #e9ebee;
+  --border: #e1e4ea;
+  --About-bg: #dddddd;
+  /* #E9EBEE */
+}
+
+* {
+  font-family: "Montserrat", serif;
+  font-family: "Inter", serif;
+  font-family: "Outfit", serif;
+}
+
+.Montserrat {
+  font-family: "Montserrat", serif;
+}
+.Inter {
+  font-family: "Inter", serif;
+}
+.Outfit {
+  font-family: "Outfit", serif;
+}
+.font12 {
+  font-size: 12px;
+}
+.font14 {
+  font-size: 14px;
+}
+.font16 {
+  font-size: 16px;
+}
+.font20 {
+  font-size: 20px;
+}
+.font26 {
+  font-size: 26px;
+}
+.font32 {
+  font-size: 32px;
+}
+
+.font48 {
+  font-size: 48px;
+}
+.marginleft {
+  margin-left: 35px;
+}
+.bgImage {
+  background-image: url("../Image/contactbg.svg");
+  background-size: cover; /* Ensures the image fits properly */
+  background-position: center; /* Centers the image */
+  overflow: hidden;
+}
+
+.herobgImage {
+  background-image: url("./About/Image/backgraundImage.svg");
+  background-size: cover; /* Ensures the image fits properly */
+  background-position: center; /* Centers the image */
+  overflow: hidden;
+}
